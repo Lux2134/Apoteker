@@ -1,10 +1,20 @@
 <?php
-$hostname = "localhost";
-$userDataBase = "root";
-$passworduser = "";
-$databaseName = "apoteker";
+$DOCKER_PROCESS = getenv("DOCKER_PROCESS");
 
-$koneksi = mysqli_connect($hostname, $userDataBase, $passworduser, $databaseName) or die(mysqli_error($koneksi));
+if ($DOCKER_PROCESS == "true") {
+   $server = getenv("DB_HOST");
+   $username = getenv("DB_USERNAME");
+   $password = getenv("DB_PASSWORD");
+   $database = getenv("DB_SCHEME");
+} else {
+   // deklarasi parameter koneksi database
+   $server   = "localhost";
+   $username = "root";
+   $password = "";
+   $database = "db_apotek";
+}
+
+$koneksi = mysqli_connect($server, $username, $password, $database) or die(mysqli_error($koneksi));
 //untuk mengetahui jumlah seluruh stok
 $query_total_stok = mysqli_query($koneksi, "SELECT SUM(Stok) AS total_stok FROM laporan_barang");
 $data_total_stok = mysqli_fetch_assoc($query_total_stok);
