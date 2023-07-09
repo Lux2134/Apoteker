@@ -42,3 +42,5 @@
                                                                     window.location.href='kasir.php';
                                                             </script> ";
     } ?>
+
+<!-- Waduh -->
