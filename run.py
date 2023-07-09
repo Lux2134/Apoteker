@@ -11,7 +11,7 @@ parser = argparse.ArgumentParser()
 parser.add_argument('-d', '--daemon', action='store_true')
 args = parser.parse_args()
 
-port = '7000'
+port = '7001'
 
 random_char = secrets.token_hex(5)
 name = 'hilal-uas'
