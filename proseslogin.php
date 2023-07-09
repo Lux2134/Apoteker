@@ -51,3 +51,4 @@ if ($proses_ambil->num_rows == 1) {
     window.location.href='login.php'
     </script>";
 }
+
