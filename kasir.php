@@ -136,7 +136,7 @@ if (isset($proses_ambil)) {
                                             <div class="control-group">
                                                 <label class="control-label" for="jumlah">Nama Pelanggan : </label>
                                                 <div class="controls">
-                                                    <input type="text" class="input-xlarge focused" id="nama" name="nama" value="">
+                                                    <input type="text" class="input-xlarge focused" id="nama" name="nama" value="<?php if (isset($data_edit['Nama_barang']) != "") echo $data_edit['Nama_barang']; ?>">
                                                 </div>
                                             </div>
 
