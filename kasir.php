@@ -34,12 +34,6 @@ if (isset($proses_ambil)) {
         <div class="header_toggle">
             <i class='bx bx-menu' id="header-toggle"></i>
         </div>
-        <div class="search-logo-container">
-            <form class="d-flex" role="search">
-                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                <button class="btn btn-outline-success" type="submit">Search</button>
-            </form>
-        </div>
         <div class="header_img">
             <img src="logo.png" alt="">
         </div>
