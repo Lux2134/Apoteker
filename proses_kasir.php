@@ -17,7 +17,7 @@
     $nama_p = $_POST['nama'] ?? '';
     $no_telp = $_POST['nomor'] ?? '';
     if(isset($_POST['Stok'])){
-        $kurang = $stok - $Jumlah;
+        $kurang = intval($stok) - intval($Jumlah);
     }
 
     $proses_ambil = mysqli_query($koneksi,"SELECT * FROM laporan_barang WHERE Nama_barang = '$nama_barang'")
@@ -42,3 +42,5 @@
                                                                     window.location.href='kasir.php';
                                                             </script> ";
     } ?>
+
+<!-- Waduh -->
