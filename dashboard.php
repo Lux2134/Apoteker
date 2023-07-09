@@ -76,6 +76,7 @@ require 'koneksi.php';
                             <thead>
                                 <tr>
                                     <th>Nama Barang</th>
+                                    <th>jenis obat<\th>
                                     <th>Stock</th>
                                     <th>Harga</th>
                                     <th>tanggal masuk</th>
