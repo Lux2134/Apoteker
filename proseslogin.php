@@ -29,8 +29,6 @@ $proses_ambil = mysqli_query($conn, "SELECT * FROM login WHERE Username = '$user
 
 
 if ($proses_ambil->num_rows == 1) {
-    session_start();
-
     // Set variabel sesi untuk menandai bahwa pengguna telah login
     $_SESSION['logged_in'] = true;
 
