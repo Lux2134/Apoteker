@@ -25,8 +25,6 @@
                 <label class="control-label" for="password">Your Password</label>
             </div>
             <button class="btn">Submit </button>
-            <p class="text">Don't have account?
-                <a href="praktikum 6.html">Create Account</a>
             </p>
         </form>
     </div>
