@@ -43,7 +43,7 @@ if ($proses_ambil->num_rows == 1) {
     //"<script> 
     //alert('login berhasil');
     //window.location.href='Dashboard.php'
-    //</script>";
+    //</script>";//kontol
 } else {
     // Login gagal
     echo "<script> 
