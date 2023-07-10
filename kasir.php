@@ -61,6 +61,10 @@ if (isset($proses_ambil)) {
                         <i class='bx bx-user nav_icon'></i>
                         <span class="nav_name">Kasir</span>
                     </a>
+
+                    <a href="laporan.php" class="nav_link "> 
+                        <i class='bx bx-detail nav_icon'></i> 
+                        <span class="nav_name">Laporan</span> </a>
                 </div>
             </div>
             <a href="logout.php" class="nav_link">

@@ -36,6 +36,7 @@ require 'koneksi.php';
                     <a href="Table_obat_edite.php" class="nav_link"> <i class='bx bx-table nav_icon'></i><span class="nav_name">Tabel Obat</span> </a>
                     <a href="Form_Insert_obat.php" class="nav_link active"> <i class='bx bx-add-to-queue nav_icon'></i> <span class="nav_name">Form Input Obat</span> </a>
                     <a href="kasir.php" class="nav_link "> <i class='bx bx-user nav_icon'></i> <span class="nav_name">Kasir</span> </a>
+                    <a href="laporan.php" class="nav_link "> <i class='bx bx-detail nav_icon'></i> <span class="nav_name">Laporan</span> </a>
                 </div>
             </div> <a href="logout.php" class="nav_link"> <i class='bx bx-log-out nav_icon'></i> <span class="nav_name">SignOut</span> </a>
         </nav>
