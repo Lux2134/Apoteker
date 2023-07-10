@@ -112,6 +112,7 @@ require 'koneksi.php';
                 labels: bulanLabels,
                 datasets: [{
                     label: 'Total Stok',
+                    labelColor: 'white', // Ubah warna label menjadi putih
                     data: totalStokData,
                     backgroundColor: 'black',
                     borderColor: 'black',
@@ -125,20 +126,30 @@ require 'koneksi.php';
                         display: true,
                         title: {
                             display: true,
-                            text: 'Bulan'
+                            text: 'Bulan',
+                            color: 'white' // Warna teks label bulan
+                        },
+                        ticks: {
+                            color: 'white' // Warna teks tick label bulan
                         }
                     },
                     y: {
                         display: true,
                         title: {
                             display: true,
-                            text: 'Total Stok'
+                            text: 'Total Stok',
+                            color: 'white' // Warna teks label total stok
+                        },
+                        ticks: {
+                            color: 'white' // Warna teks tick label total stok
                         }
                     }
                 }
             }
         });
     </script>
+
+    
 
     <script>
         document.addEventListener("DOMContentLoaded", function(event) {
