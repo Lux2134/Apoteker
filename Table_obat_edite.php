@@ -20,7 +20,7 @@ if (isset($proses_ambil)) {
 <html>
 <header>
     <title>
-
+    Update Stock
     </title>
     <link href="Library/bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen">
     <link href="Library/bootstrap/css/bootstrap-responsive.min.css" rel="stylesheet" media="screen">
