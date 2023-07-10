@@ -19,7 +19,7 @@ if (isset($proses_ambil)) {
 <html>
 <header>
     <title>
-
+    Kasir
     </title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
     <link href="Library/bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen">

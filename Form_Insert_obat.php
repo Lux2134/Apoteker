@@ -14,7 +14,7 @@ require 'koneksi.php';
 <html>
 <header>
     <title>
-
+    Input Barang
     </title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
     <link href="Library/bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen">
