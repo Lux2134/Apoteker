@@ -75,9 +75,6 @@ include "tampilkan_data_laporan_penjualan.php";
                                             <td><?php echo $data['Nama_barang'] ?></td>
                                             <td><?php echo $data['stok_dijual'] ?></td>
                                             <td><?php echo $data['total_harga'] ?></td>
-                                            <td>
-                                                <a href="hapus_LP.php?Nama_barang=<?php echo $data['Nama_barang']; ?>"> Hapus</a>
-                                            </td>
                                         </tr>
 
                                     <?php
